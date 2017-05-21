@@ -1,0 +1,9 @@
+$header-font: 'Courier New', sans-serif;
+$body-font: Ubuntu, sans-serif;
+
+body {
+    font-family: $body-font;
+}
+h1 {
+    font-family: $header-font;
+}
