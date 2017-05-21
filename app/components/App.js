@@ -1,12 +1,11 @@
 var React = require('react');
 
+var Image = require('./Image');
+
 class App extends React.Component {
     render() {
         return (
-            <div className='container'>
-                <h1>Hello World!</h1>
-                <p>Sick as bro</p>
-            </div>
+            <Image />
         )
     }
 }
