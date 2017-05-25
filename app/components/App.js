@@ -1,11 +1,13 @@
 var React = require('react');
-
-var Image = require('./Image');
+var Generate = require('./Generate');
+var Photo = require('./Photo');
 
 class App extends React.Component {
     render() {
         return (
-            <Image />
+            <div className="container">
+                <Generate />
+            </div>
         )
     }
 }
