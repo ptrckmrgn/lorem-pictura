@@ -1,7 +1,7 @@
 var React = require('react');
 var PropTypes = require('prop-types');
 var Api = require('./utils/Api');
-var Photo = require('./Photo');
+var Manipulate = require('./Manipulate');
 
 class Generate extends React.Component {
     constructor(props) {
@@ -83,7 +83,7 @@ class Generate extends React.Component {
                         </button>
                     </form>
                 </div>
-                <Photo photo={this.state.photos[this.state.position]}/>
+                <Manipulate photo={this.state.photos[this.state.position]}/>
             </div>
         )
     }
