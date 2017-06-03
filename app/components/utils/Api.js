@@ -9,7 +9,7 @@ var params = "?client_id=" + APPLICATION_ID + "&count=" + MAX_PHOTOS;
 module.exports = {
     photos: function() { // TODO: change for production
         return axios.get('../../resources/test.json')
-        // return axios.get('https://api.unsplash.com/photos/random/' + params)
+        //return axios.get('https://api.unsplash.com/photos/random/' + params)
             .then(function(photos) {
                 return photos.data;
             });

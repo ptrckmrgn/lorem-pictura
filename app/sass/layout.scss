@@ -16,3 +16,12 @@ body {
         }
     }
 }
+#generate-wrapper {
+    height: 60px;
+}
+#image-wrapper {
+    height: calc(100vh - 120px);
+}
+#manipulate-wrapper {
+    height: 60px;
+}

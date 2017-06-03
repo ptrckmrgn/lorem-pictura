@@ -1,12 +1,21 @@
 #app {
     background: #333;
 }
+#generate-wrapper {
+    background: #333;
+}
+#image-wrapper {
+
+}
+#manipulate-wrapper {
+    background: #333;
+}
 
 body {
   margin: 0;
 }
 .container {
-  width: 90vw;
+  width: 100vw;
   height: 70%;
   text-align: center;
 }
@@ -15,4 +24,13 @@ label {
 }
 input {
   width: 60px;
+}
+
+.loading {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    //height: 400px;
+    //width: 400px;
 }

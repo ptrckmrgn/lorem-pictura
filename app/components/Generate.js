@@ -69,13 +69,13 @@ class Generate extends React.Component {
         return (
             <div className="container">
                 <div id='generate-wrapper'>
-                    <form onSubmit={this.handleUndo}>
+                    {/* <form onSubmit={this.handleUndo}>
                         <button
                             className='button'
                             type='submit'
                             disabled={!this.state.position}>Undo
                         </button>
-                    </form>
+                    </form> */}
                     <form onSubmit={this.handleGenerate}>
                         <button
                             className='button'
